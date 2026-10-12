@@ -1,0 +1,3 @@
+const cars = ["pepsi", "stone", "sword"];
+cars[0] = "Apalah";   //ini untuk mengubah elemen di index 
+cars.push("Audi");    //ini untuk menambah elemen di akhir
