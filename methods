@@ -1,0 +1,4 @@
+const fruits = ["Banana", "Orange", "Apple"];
+fruits.push("Mango");     // tambah
+fruits.pop();             // hapus terakhir
+fruits.splice(1, 1);      // hapus 1 elemen di index 1
