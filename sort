@@ -1,0 +1,9 @@
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.sort();        // urut abjad: Apple, Banana, Mango, Orange
+fruits.reverse();     // balik urutan
+document.write(fruits);
+
+// Sort angka (harus pakai compare function)
+const points = [40, 100, 1, 5, 25, 10];
+points.sort((a, b) => a - b);   // ascending
+points.sort((a, b) => b - a);   // descending
