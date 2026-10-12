@@ -1,0 +1,4 @@
+const cars = ["menkrep", "sua", "fuad"];
+console.log(cars[1]);        
+cars[0] = "apalah";
+console.log(cars.length); 
